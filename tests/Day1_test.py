@@ -13,6 +13,10 @@ class TestElevator(unittest.TestCase):
         self.assertEqual(Elevator.MoveElevator(')))'), -3)
         self.assertEqual(Elevator.MoveElevator(')())())'), -3)
 
+    def test_MoveElevatorWrongCommand(self):
+        with self.assertRaises(Exception):
+            Elevator.MoveElevator('i()(')
+
 
 if __name__ == '__main__':
     unittest.main()
