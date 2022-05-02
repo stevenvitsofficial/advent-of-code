@@ -2,7 +2,7 @@ import unittest
 from src.Day1 import Elevator
 
 
-class TestElevator(unittest.TestCase):
+class TestDay2(unittest.TestCase):
     def test_MoveElevator(self):
         self.assertEqual(Elevator.MoveElevator('(())'), 0)
         self.assertEqual(Elevator.MoveElevator('()()'), 0)
