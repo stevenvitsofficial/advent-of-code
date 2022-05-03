@@ -10,3 +10,7 @@ class InvalidInputCharacterError(Error):
 class InputValueNegativeError(Error):
     """Raised when the input value is negative when not allowed"""
     pass
+
+class InputValueNotStringError(Error):
+    """Raised when the input value is negative when not allowed"""
+    pass
