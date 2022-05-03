@@ -1,5 +1,3 @@
-import numpy as np
-
 def MoveElevator(brackets):
 
     floor = 0
@@ -14,5 +12,3 @@ def MoveElevator(brackets):
 
     return floor
 
-floor = MoveElevator('(()')
-print(floor)
